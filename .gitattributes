@@ -1,14 +1,9 @@
-# This is a C project - LPC compiler/driver
-*.c linguist-language=C
-*.h linguist-language=C
+# This is an LPC mudlib/library
+*.c linguist-language=LPC
 
 # Documentation
 *.md linguist-documentation
 docs/** linguist-documentation
 
-# Session notes are documentation
-SESSION_*.md linguist-documentation
-HANDOFF_*.md linguist-documentation
-PHASE*.md linguist-documentation
-*_SUMMARY.md linguist-documentation
-*_CHECKLIST.md linguist-documentation
+# Makefile
+Makefile linguist-language=Makefile
