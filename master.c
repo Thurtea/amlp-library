@@ -16,6 +16,6 @@ void log_error(string file, string message) {
 }
 
 // Returns the simul_efun object path
-string *epilog(string file) {
-    return ({ "/secure/simul_efun" });
+string epilog(string file) {
+    return "/secure/simul_efun";
 }
