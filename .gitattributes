@@ -1,9 +1,3 @@
-# This is an LPC mudlib/library
 *.c linguist-language=LPC
-
-# Documentation
-*.md linguist-documentation
-docs/** linguist-documentation
-
-# Makefile
-Makefile linguist-language=Makefile
+*.h linguist-language=LPC
+master.c linguist-language=LPC
